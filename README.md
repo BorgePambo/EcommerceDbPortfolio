@@ -1,8 +1,6 @@
-# EcommerceDbPortfolio
-
 E-commerce Database Management System
 
-Este projeto consiste em um sistema de gerenciamento de banco de dados para um e-commerce, desenvolvido utilizando SQL. O objetivo é criar e gerenciar as principais entidades relacionadas a um sistema de vendas, incluindo clientes, produtos, pedidos, lojas e endereços.
+Este projeto consiste em um sistema de gerenciamento de banco de dados para um e-commerce, desenvolvido utilizando SQL. O objetivo é criar e gerenciar as principais entidades relacionadas a um sistema de vendas, incluindo clientes, produtos, pedidos, lojas, endereços e funcionários.
 Estrutura do Banco de Dados
 
     Tabelas Principais:
@@ -12,12 +10,13 @@ Estrutura do Banco de Dados
         Order_Items: Detalha os itens de cada pedido, incluindo produto, quantidade, preço unitário e desconto.
         Stores: Armazena informações sobre as lojas que participam do sistema.
         Products: Contém informações sobre os produtos disponíveis, incluindo nome, categoria, preço e marca.
+        Staffs: Armazena informações sobre os funcionários que lidam diretamente com as operações das lojas, incluindo nome, e-mail, telefone e a loja em que trabalham.
 
 Funcionalidades
 
     Criação das tabelas com relacionamentos adequados.
     Inserção de dados de exemplo para testes e demonstrações.
-    Consultas para extrair informações sobre clientes, pedidos e produtos.
+    Consultas para extrair informações sobre clientes, pedidos, produtos e funcionários.
 
 Tecnologias Utilizadas
 
